@@ -8,3 +8,4 @@ mkdir importances
 mkdir -p plots/figure-s2 plots/figure-s4 plots/figure-s5
 mkdir predictions
 mkdir substrate
+mkdir simulation-results

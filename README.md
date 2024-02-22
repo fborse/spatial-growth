@@ -19,3 +19,9 @@ An additional dependency is for the **level-2\_alpha-epsilon\_k-phi.ipynb** note
 ## Synthetic branch
 As the format of the original Scan-o-Matic data and our synthetic data changes slightly, it has been chosen to create a separate branch containing notebooks specially suited to that data.
 Change the branch of your repository in order to run these notebooks.
+
+The following protocol needs to be satisfied in order to run these :
+* First copy the files **alpha/computed-diffusion.npy** and **diffusion-parameters/optimal.csv** to a safe location, before changing the branch
+* Re-run **create_folders.sh**
+* Copy them now to appropriate location once the branch has been changed
+* Generate the synthetic data by using **level-3_simulation.ipynb**

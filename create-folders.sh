@@ -4,7 +4,8 @@ mkdir alpha
 mkdir epsilon
 mkdir factors
 mkdir importances
-mkdir -p plots/figure-1 plots/figure-2 plots/figure-3 plots/figure-4
-mkdir plots/figure-s2 plots/figure-s6
+# figure-s2 is a misnomer ; it should be s3
+mkdir -p plots/figure-s2 plots/figure-s4 plots/figure-s5
 mkdir predictions
 mkdir substrate
+mkdir simulation-results
